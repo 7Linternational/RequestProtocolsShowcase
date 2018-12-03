@@ -1,0 +1,25 @@
+.btn {
+    padding: 20px;
+    background-color: rebeccapurple;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 20px;
+    font-size: 20px;
+    /*font-family: 'Courier New', Courier, monospace;*/
+    cursor: pointer;
+}
+
+.btn:active,
+.btn::selection {
+    background-color: purple;
+}
+
+.block {
+    padding: 10px 10px;
+    /* background-color: beige; */
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family: Press+Start+2P, Courier, monospace;
+}
