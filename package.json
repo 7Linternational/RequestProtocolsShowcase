@@ -1,0 +1,36 @@
+{
+  "name": "RequestProtocolsShowcase",
+  "version": "1.0.0",
+  "description": "Sample Apps for MQTT, Socket and REST protocols",
+  "main": "index.js",
+  "scripts": {
+    "startHTTP": "node clientHTTPRequest.js",
+    "startMQTT": "node mqttClient.js",
+    "startSocket": "node clientSocketConnect.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "hapi": "^17.8.1",
+    "install": "^0.12.2",
+    "mosca": "^2.8.3",
+    "mqtt": "^2.18.8",
+    "node-fetch": "^2.3.0",
+    "npm": "^6.5.0",
+    "socket.io": "^2.2.0"
+  },
+  "engines": {
+    "node": "6.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7Linternational/RequestProtocolsShowcase"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Michael Dobekidis",
+  "contributors": [
+    "Michael Dobekidis (m.dobekidis@7linternational.com)"
+  ],
+  "license": "MIT"
+}

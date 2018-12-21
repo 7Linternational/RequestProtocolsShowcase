@@ -2,3 +2,4 @@ HTTP-Request/node_modules/
 MQTT-Request/node_modules/
 MQTT-Request/.vscode/launch.json
 Socket-Request/node_modules/
+node_modules/
