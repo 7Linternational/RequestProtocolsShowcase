@@ -45,7 +45,7 @@ function httpConnect() {
 
         var request = jQuery.ajax(options)
             .done(function(response) {
-                console.log(response);
+                //console.log(response);
                 if (doneCallback) {
                     doneCallback(response);
                 }
